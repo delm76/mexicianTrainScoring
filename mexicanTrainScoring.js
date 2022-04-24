@@ -11,10 +11,10 @@ print("How many players.")
 # Accept number as input and set as variable.
 
 player1 = window.prompt("Enter Player 1 name:");
-player2 = window.prompt("Enter Player 1 name:");
-player3 = window.prompt("Enter Player 1 name:");
-player4 = window.prompt("Enter Player 1 name:");
-player5 = window.prompt("Enter Player 1 name:");
+player2 = window.prompt("Enter Player 2 name:");
+player3 = window.prompt("Enter Player 3 name:");
+player4 = window.prompt("Enter Player 4 name:");
+player5 = window.prompt("Enter Player 5 name:");
 
 player1scoreArray = [];
 player2scoreArray = [];
