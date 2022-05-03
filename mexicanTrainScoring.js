@@ -1,14 +1,14 @@
-# Starting as pseudo code.  
-# To be developed as pure javascript.  
-# This is expected to be project to learn git and github collaberation and version control, as well as to improve Javascript skills.
+//# Starting as pseudo code.  
+//# To be developed as pure javascript.  
+//# This is expected to be project to learn git and github collaberation and version control, as well as to improve Javascript skills.
 
-# To be run from console.
+//# To be run from console.
 
-# Game Initalialization
+//# Game Initalialization
 
-print("How many players.")
+consol.log("How many players?")
 
-# Accept number as input and set as variable.
+//# Accept number as input and set as variable.
 
 player1 = player1name;
 player2 = player2name;
@@ -32,12 +32,12 @@ print finalScores;
 exit 0;
 }
 
-# TODO:
+//# TODO:
 
-# Expand to be a web app.
+//# Expand to be a web app.
 
-# Add API.
+//# Add API.
 
-# Use this as a starting point for implementation for not pure javascript libraries such as React, jquery.
+//# Use this as a starting point for implementation for not pure javascript libraries such as React, jquery.
 
-# Later to use with frameworks including AngularJS, Angular, and NodeJS.
+//# Later to use with frameworks including AngularJS, Angular, and NodeJS.
