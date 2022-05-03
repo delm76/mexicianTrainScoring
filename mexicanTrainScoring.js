@@ -6,7 +6,7 @@
 
 //# Game Initalialization
 
-consol.log("How many players?");
+console.log("How many players?");
 var numPlayers = prompt();
 
 while (numPlayers > 0) {
