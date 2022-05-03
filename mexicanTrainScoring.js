@@ -12,6 +12,7 @@ var numPlayers = prompt("How many players?", "Enter number here.");
 if (numPlayers.isInteger() === true){
 while (numPlayers > 0) {
 //instantiate player objects should include string name, int total, array roundScore
+  numPlayers --;
 }
 }
 
