@@ -6,14 +6,14 @@
 
 //# Game Initalialization
 
-console.log("How many players?");
-var numPlayers = prompt();
-
-while (numPlayers > 0) {
-//substantiate player objects should includ string name, int total, array roundScore
-}
-
 //# Accept number as input and set as variable.
+var numPlayers = prompt("How many players?", "Enter number here.");
+
+if (numPlayers.isInteger() === true){
+while (numPlayers > 0) {
+//instantiate player objects should include string name, int total, array roundScore
+}
+}
 
 player1 = player1name;
 player2 = player2name;
