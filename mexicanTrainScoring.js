@@ -6,7 +6,12 @@
 
 //# Game Initalialization
 
-consol.log("How many players?")
+consol.log("How many players?");
+var numPlayers = prompt();
+
+while (numPlayers > 0) {
+//substantiate player objects should includ string name, int total, array roundScore
+}
 
 //# Accept number as input and set as variable.
 
