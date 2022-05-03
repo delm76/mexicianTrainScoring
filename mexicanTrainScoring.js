@@ -9,7 +9,7 @@
 //# Accept number as input and set as variable.
 var numPlayers = prompt("How many players?", "Enter number here.");
 
-if (numPlayers.isInteger() === true){
+if (Number.isInteger(numPlayers) === true){
 while (numPlayers > 0) {
 //instantiate player objects should include string name, int total, array roundScore
   numPlayers --;
