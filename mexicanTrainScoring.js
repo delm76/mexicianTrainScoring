@@ -9,13 +9,20 @@
 //# Accept number as input and set as variable.
 var numPlayers = prompt("How many players?", "Enter number here.");
 
+const players = [];
+
 if (Number.isInteger(numPlayers) === true){
-while (numPlayers > 0) {
 //instantiate player objects should include string name, int total, array roundScore
+  for (i = 0; numPlayers > 0; i++) {
+  var players[i] = {
+    name: prompt("Enter the next player's name.", "name");
+    scoreTotal: 0;
+    roundScores: [];
+  }
   numPlayers --;
 }
 }
-
+/*
 player1 = player1name;
 player2 = player2name;
 player3 = player3name;
@@ -27,11 +34,11 @@ player2scoreArray = [];
 player3scoreArray = [];
 player4scoreArray = [];
 player5scoreArray = [];
-
+*/
 roundNumber = 12; 
 print $roundNumber;
 if (roundNumber > 0):{
-  # implement play score math;
+  //# implement play score math;
   pass;
 } else {
 print finalScores;
