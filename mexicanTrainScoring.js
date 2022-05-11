@@ -14,10 +14,10 @@ const players = [];
 if (Number.isInteger(numPlayers) === true){
 //instantiate player objects should include string name, int total, array roundScore
   for (i = 0; numPlayers > 0; i++) {
-  var players[i] = {
-    name: prompt("Enter the next player's name.", "name");
-    scoreTotal: 0;
-    roundScores: [];
+  players[i] = {
+    name: prompt("Enter the next player's name.", "name"),
+    scoreTotal: 0,
+    roundScores: [],
   }
   numPlayers --;
 }
