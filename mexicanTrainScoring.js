@@ -23,25 +23,7 @@ if (Number.isInteger(numPlayers) === true){
 }
 }
 
-/*
-player1 = player1name;
-player2 = player2name;
-player3 = player3name;
-player4 = player4name;
-player5 = player5name;
 
-player1 = window.prompt("Enter Player 1 name:");
-player2 = window.prompt("Enter Player 2 name:");
-player3 = window.prompt("Enter Player 3 name:");
-player4 = window.prompt("Enter Player 4 name:");
-player5 = window.prompt("Enter Player 5 name:");
-
-player1scoreArray = [];
-player2scoreArray = [];
-player3scoreArray = [];
-player4scoreArray = [];
-player5scoreArray = [];
-*/
 roundNumber = 12; 
 print $roundNumber;
 if (roundNumber > 0):{
