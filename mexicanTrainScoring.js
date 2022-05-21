@@ -8,7 +8,10 @@
 
 //# Accept number as input and set as variable.
 var numPlayers = prompt("How many players?", "Enter number here.");
+//convert answer string to int
+numPlayers = parseInt(numPlayers);
 
+//create players array to hold player objects
 const players = [];
 
 if (Number.isInteger(numPlayers) === true){
